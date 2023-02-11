@@ -1,0 +1,15 @@
+/* resultados de busqueda responsive que se adapten al tamaño de la ventana: */
+
+.squares {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fix, /* <-- align to the space available */
+    minmax(
+      150px,
+      1fr
+    )
+  );
+  gap: 16px;
+}
+
+/* <-- dejar un espacio entre cuadriculas */
