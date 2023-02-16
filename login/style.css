@@ -1,0 +1,31 @@
+body {
+    background-color: lightgrey;  
+}
+
+div {
+  background-color: white;
+  width: 300px; 
+  padding: 50px;
+  margin: 20px;
+}
+
+.request {
+    width:200px;
+}
+
+.forgot_pass {
+    margin-top: 15px;
+    padding-left: 35px;
+    text-align: center;
+    /* font-size: 12px; */
+    /* color: #cfcfcf; */
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+button#request_access {
+    /* height:200px; */
+    width:200px;
+}
